@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+div{
+    padding: 5px;
+    margin: 5px;
+}
+.navbar{
+    background-color: lightgrey;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+#twitter{
+    background: rgb(0,172,238);
+    background: linear-gradient(90deg, rgba(0,172,238,1) 0%, rgba(255,255,255,1) 100%);;
+}
+#reddit{
+    background: rgb(255,69,0);
+    background: linear-gradient(90deg, rgba(255,69,0,1) 0%, rgba(255,255,255,1) 100%);
+}
+#reddit a{
+    color: black
+}
+#youtube{
+    background: rgb(196,48,43);
+    background: linear-gradient(90deg, rgba(196,48,43,1) 0%, rgba(255,255,255,1) 100%);
+}
+#github{
+    background-color: gray;
+}
+#github a{
+    color: white
+}
+#facebook{
+    background: rgb(0,255,255);
+    background: linear-gradient(90deg, rgba(0,255,255,1) 0%, rgba(255,255,255,1) 100%);
+}
+.links{
+    border: 2px solid black;
+    display: inline;
+    opacity: 0.7;
+    transition: 0.6s;
+}
+#linksgroup{
+    text-align: center;
+}
+.links a{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+.links:hover{
+    opacity: 1;
+    transition: 0.6s;
+    font-size: larger;
+    padding: 10px;
+}
+.banner{
+    background-image: url('images/btmc.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 500px;
+    padding: 0px;
+    margin: 0px;
+}
+.bannertext{
+    position: absolute;
+    color: white;
+    top: 12%;
+    left: 2%;
+    font-family: 'Poppins', sans-serif;
+}
+.bannertext h2{
+    text-transform: uppercase;
+    color: white;
+}
+.bannertext h2 span{
+    color: blue;
+}
+.bannertext a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 1em;
+    margin-top: 1em;
+    background-color: yellow;
+    font-family: 'Comic Neue', cursive;
+}
