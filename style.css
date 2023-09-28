@@ -86,4 +86,11 @@ div{
     margin-top: 1em;
     background-color: yellow;
     font-family: 'Comic Neue', cursive;
+    opacity: 0.7;
+    transition: 0.6s;
 }
+.bannertext a:hover{
+    opacity: 1;
+    transition: 0.6s;
+    font-size: larger;
+    padding: 10px;
